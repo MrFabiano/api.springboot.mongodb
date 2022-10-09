@@ -1,0 +1,10 @@
+#spring:
+#  data:
+#    mongodb+srv:
+#      host: cluster0.fzg9tyo.mongodb.net
+#      port: 27010
+
+#server:
+#  port:
+#    servlet:
+#      context-path /capture_renegotiation_user

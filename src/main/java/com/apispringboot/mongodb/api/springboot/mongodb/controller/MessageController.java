@@ -36,6 +36,7 @@ public class MessageController {
     }
 
     @GetMapping("/message")
+    @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<List<MessageDTO>> createMessage(Message message,
                                                           @RequestParam(value = "channel", required = false) String channel,
                                                           @RequestParam(value = "code", required = false) String code,
